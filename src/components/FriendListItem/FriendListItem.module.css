@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 22px 2px rgb(0, 0, 0, 0.24); */
+    box-shadow: 0 5px 10px 0 rgb(29 29 29 / 50%);
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.item img {
+ width: 70px;
+ height: 70px;
+ margin: 0 20px;
+}
+
+.statusOn, .statusOff {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: block;
+}
+
+.statusOn {
+    background-color: green;
+}
+
+.statusOff {
+    background-color: red;
+}
